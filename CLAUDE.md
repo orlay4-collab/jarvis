@@ -81,7 +81,8 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 │   ├── commands/
 │   │   ├── prime.md             # /prime pour démarrer une session
 │   │   ├── update.md            # /update pour mettre à jour le contexte
-│   │   └── morning.md           # /morning pour démarrer la journée
+│   │   ├── morning.md           # /morning pour démarrer la journée
+│   │   └── commit.md            # /commit pour sauvegarder dans Git
 │   └── skills/
 │       └── recherche-actualites/ # Skill veille personnalisée
 └── module-installs/
@@ -120,6 +121,12 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 **Objectif :** Mettre à jour mes fichiers de contexte avec les derniers changements.
 
 À utiliser quand quelque chose d'important a changé et que je veux que Claude reflète cette information dans les fichiers, ou pour faire une mise à jour générale après une session productive.
+
+### /commit
+
+**Objectif :** Sauvegarder mon travail dans Git proprement.
+
+Claude fait l'état des lieux, vérifie qu'aucun secret ni donnée personnelle ne part, me propose un message de commit en français, puis commite après ma validation. Le push n'est jamais fait sans que je le demande.
 
 ### /morning
 
