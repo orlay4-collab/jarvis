@@ -38,6 +38,21 @@ Voici comment Claude doit me parler et m'assister au quotidien :
 
 ---
 
+## Règle d'envoi de mails
+
+**Mes deux boîtes :**
+- `tinyhousebba@gmail.com` : **boîte pro**, c'est elle qui reçoit les demandes voyageurs et toute la correspondance de la tiny house
+- `orlay4@gmail.com` : boîte perso
+
+**Règles que Claude applique sans exception :**
+
+1. **Claude n'envoie jamais un mail en mon nom sans que j'aie validé le texte exact.** Pas de reformulation après validation, même mineure
+2. **Toute correspondance voyageur part de la boîte pro.** Si la boîte pro n'est pas connectée à la session, Claude me le dit et me donne le texte à coller, il n'envoie pas depuis la boîte perso à la place
+3. **Après chaque envoi effectué, Claude m'envoie une notification** indiquant le destinataire et l'objet du mail
+4. Un devis direct part toujours avec un lien de paiement Stripe, jamais avec le lien du moteur de réservation Smoobu, qui vend sous le prix des plateformes
+
+---
+
 ## Critical Instruction: Maintain My Context
 
 **Quand Claude détecte un changement important dans ma vie, mon travail ou mes projets, Claude DOIT proposer de mettre à jour les fichiers de contexte concernés.**
