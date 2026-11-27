@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relevé mur Viroc</title>
+<style>
+  :root{
+    --ink:#14161a; --muted:#5b6370; --line:#c6ccd6; --line2:#e4e8ee;
+    --fill:#fbfcfe; --accent:#8a4b12; --warn:#fff6e8; --warnline:#e0b070;
+    --bg:#ffffff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    padding:28px 16px 60px;
+  }
+  .wrap{max-width:900px;margin:0 auto}
+  header{border-bottom:3px solid var(--ink);padding-bottom:12px;margin-bottom:22px}
+  h1{font-size:25px;margin:0 0 4px;letter-spacing:-.02em}
+  .sub{color:var(--muted);font-size:13px}
+  .meta{margin-top:12px;font-size:14px}
+  h2{
+    font-size:16px;margin:30px 0 10px;padding:7px 10px;
+    background:var(--ink);color:#fff;border-radius:4px;
+  }
+  h2 span{font-weight:400;opacity:.75;font-size:13px}
+  h3{font-size:14px;margin:18px 0 7px;color:var(--accent)}
+  p{margin:8px 0}
+  .note{font-size:13px;color:var(--muted)}
+  .rule{
+    background:var(--warn);border:1px solid var(--warnline);
+    border-left:5px solid var(--warnline);
+    padding:11px 13px;border-radius:4px;margin:14px 0;font-size:14px;
+  }
+  .rule b{display:block;margin-bottom:3px}
+  table{border-collapse:collapse;width:100%;margin:10px 0 4px;font-size:14px}
+  th,td{border:1px solid var(--line);padding:0;text-align:center}
+  th{background:#eef1f5;font-size:12px;font-weight:600;padding:6px 4px;line-height:1.25}
+  td{height:30px}
+  td.lab{background:#f4f6f9;font-weight:600;width:22%;padding:0 8px;text-align:left;font-size:13px}
+  td.fill{background:var(--fill)}
+  tr.key td.lab{background:#fdf2e3;color:var(--accent)}
+  tr.key td{border-top:2px solid var(--accent);border-bottom:2px solid var(--accent)}
+  .u{display:inline-block;border-bottom:1px solid var(--ink);min-width:95px;height:1.35em;vertical-align:-3px}
+  .u.s{min-width:58px}
+  .u.l{min-width:170px}
+  ul{margin:8px 0;padding-left:20px}
+  li{margin:5px 0}
+  .box{border:1px solid var(--line);border-radius:5px;padding:12px 14px;margin:12px 0;background:var(--fill)}
+  .chk{display:inline-block;width:14px;height:14px;border:1.5px solid var(--ink);vertical-align:-2px;margin-right:6px;border-radius:2px}
+  .synth{border:2px solid var(--ink);border-radius:5px;padding:4px 14px 14px;margin-top:12px}
+  .synth table td.lab{width:58%;background:transparent;font-weight:500}
+  .synth table td{height:32px}
+  .f{font-size:12.5px;color:var(--muted);font-style:italic}
+  @media print{
+    body{padding:0;font-size:12px}
+    h2{background:#222 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    th,td.lab,td.fill,.rule,tr.key td.lab{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    td{height:26px}
+    .pb{page-break-before:always}
+    h2{page-break-after:avoid}
+    table{page-break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Relevé du mur &mdash; habillage Viroc</h1>
+  <div class="sub">Mur de 6 237 &times; ~2 500 mm avec passage libre &middot; 5 panneaux Viroc gris 12 mm sur liteaux</div>
+  <div class="meta">Date du relevé&nbsp;: <span class="u"></span>&nbsp;&nbsp;&nbsp; Relevé par&nbsp;: <span class="u"></span></div>
+</header>
+
+<div class="rule">
+  <b>La règle qui fait le plus de dégâts quand on l'oublie</b>
+  Toutes les cotes horizontales se prennent depuis le <b style="display:inline">coin gauche</b>, mètre déroulé une seule fois, sans jamais enchaîner une mesure sur la précédente. Les erreurs s'additionnent et on se retrouve avec 15 mm d'écart arrivé au coin droit.
+</div>
+
+<h2>Étape 0 <span>&mdash; à faire avant de sortir le mètre</span></h2>
+
+<div class="box">
+  <p><span class="chk"></span> <b>Décision chambranle</b> &nbsp; &#9633; déposé &nbsp;&nbsp; &#9633; conservé</p>
+  <p class="note">Si le chambranle doit sauter, <b>le déposer maintenant</b>. Sinon tu mesures la moulure au lieu de l'ouverture et tous les chiffres sont faux de 10 à 20 mm.</p>
+  <p style="margin-top:12px"><b>Matériel</b></p>
+  <p><span class="chk"></span> Laser croix &nbsp; <span class="chk"></span> Mètre 5 m &nbsp; <span class="chk"></span> Règle 2 m ou tasseau bien droit &nbsp; <span class="chk"></span> Crayon &nbsp; <span class="chk"></span> Cette fiche</p>
+</div>
+
+<h2>Étape 1 <span>&mdash; la ligne de référence</span></h2>
+
+<p>Laser à l'horizontale à <b>1 000 mm</b> environ. Tracer la ligne au crayon sur tout le mur, et marquer chaque position du tableau ci-dessous.</p>
+<p><span class="chk"></span> Ligne tracée et repères marqués</p>
+
+<p style="margin-top:14px"><b>Largeur totale du mur</b>, coin gauche à coin droit, mesurée au ras du sol puis sous le plafond&nbsp;:</p>
+<p style="padding-left:14px">en bas <span class="u"></span> mm &nbsp;&nbsp;&nbsp; en haut <span class="u"></span> mm &nbsp;&nbsp;&nbsp; <span class="f">valeur du schéma&nbsp;: 6 237</span></p>
+
+<h2>Étape 2 <span>&mdash; hauteurs réelles, le relevé qui commande la découpe</span></h2>
+
+<p class="note">À chaque repère, mesurer depuis la ligne de référence vers le haut jusqu'au plafond, puis vers le bas jusqu'au sol. Le total donne la hauteur réelle à cet endroit. Les lignes orange sont les positions de joint entre panneaux, à ne surtout pas sauter.</p>
+
+<table>
+  <thead><tr>
+    <th style="width:22%">Position depuis le coin gauche</th>
+    <th>Vers le plafond (mm)</th>
+    <th>Vers le sol (mm)</th>
+    <th>Total = hauteur réelle</th>
+  </tr></thead>
+  <tbody>
+    <tr><td class="lab">0 &mdash; coin gauche</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">500</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">1 000</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr class="key"><td class="lab">1 160 &mdash; bord du passage</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">1 500</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">2 000</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr class="key"><td class="lab">2 222 &mdash; bord du passage</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">2 500</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">3 000</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr class="key"><td class="lab">3 226 &mdash; joint</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">3 500</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">4 000</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr class="key"><td class="lab">4 230 &mdash; joint</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">4 500</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">5 000</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr class="key"><td class="lab">5 234 &mdash; joint</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">5 500</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">6 000</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">Coin droit</td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </tbody>
+</table>
+
+<h2 class="pb">Étape 3 <span>&mdash; l'aplomb, est-ce que le mur penche</span></h2>
+
+<p class="note">Laser à la verticale, puis mesurer l'écart entre le trait et le mur à trois hauteurs. Noter aussi le sens&nbsp;: le mur part-il vers la pièce (il penche sur toi) ou s'écarte-t-il&nbsp;? Un mur qui penche est plus embêtant qu'un mur bosselé, parce que les liteaux doivent le rattraper sur toute la hauteur.</p>
+
+<table>
+  <thead><tr>
+    <th style="width:26%">Verticale</th>
+    <th>Écart à 200 mm du sol</th>
+    <th>Écart à 1 250 mm</th>
+    <th>Écart à 2 300 mm</th>
+    <th style="width:16%">Penche vers&nbsp;?</th>
+  </tr></thead>
+  <tbody>
+    <tr><td class="lab">Coin gauche</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">Bord gauche du passage</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">Bord droit du passage</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">Milieu segment droit (~4 200)</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">Coin droit</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </tbody>
+</table>
+
+<h2>Étape 4 <span>&mdash; la planéité, elle décide de l'épaisseur finale</span></h2>
+
+<p class="note">Promener la règle de 2 m à plat, horizontalement, à trois hauteurs, sur toute la longueur du mur. Noter le plus gros creux <b>et sa position</b>.</p>
+
+<table>
+  <thead><tr><th style="width:34%">Hauteur de passage de la règle</th><th>Plus gros creux (mm)</th><th>À quelle distance du coin gauche</th></tr></thead>
+  <tbody>
+    <tr><td class="lab">À 400 mm du sol</td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">À 1 250 mm</td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">À 2 100 mm</td><td class="fill"></td><td class="fill"></td></tr>
+  </tbody>
+</table>
+
+<div class="rule">
+  <b>Zone prioritaire&nbsp;: les 50 cm de part et d'autre du passage</b>
+  C'est là que la surépaisseur se verra. Si le mur y est creux, l'habillage n'y fera pas 32 mm mais 32 + le creux.
+  <p style="margin:9px 0 0">Creux à gauche du passage&nbsp;: <span class="u s"></span> mm &nbsp;&nbsp;&nbsp; Creux à droite du passage&nbsp;: <span class="u s"></span> mm</p>
+</div>
+
+<h2>Étape 5 <span>&mdash; l'ouverture</span></h2>
+
+<table>
+  <tbody>
+    <tr><td class="lab">Du coin gauche au bord gauche de l'ouverture</td><td class="fill"></td><td class="lab">Largeur en haut</td><td class="fill"></td></tr>
+    <tr><td class="lab">Hauteur côté gauche</td><td class="fill"></td><td class="lab">Largeur au milieu</td><td class="fill"></td></tr>
+    <tr><td class="lab">Hauteur côté droit</td><td class="fill"></td><td class="lab">Largeur en bas</td><td class="fill"></td></tr>
+    <tr><td class="lab">Diagonale 1</td><td class="fill"></td><td class="lab">Diagonale 2</td><td class="fill"></td></tr>
+    <tr><td class="lab">Du bord droit de l'ouverture au coin droit</td><td class="fill"></td><td class="lab">Profondeur du tableau (épaisseur du mur)</td><td class="fill"></td></tr>
+  </tbody>
+</table>
+<p class="f">Les deux diagonales sont le seul moyen de savoir si l'ouverture est d'équerre. Un écart de plus de 15 mm entre elles se verra sur les bandes de retour.</p>
+
+<h2>Étape 6 <span>&mdash; prises et convecteur</span></h2>
+
+<p class="note">Aucun joint de panneau ne doit tomber sur une prise. C'est la contrainte qui commande le calepinage, donc ces cotes sont aussi importantes que les hauteurs.</p>
+
+<table>
+  <thead><tr>
+    <th style="width:24%">Équipement</th>
+    <th>Distance du coin gauche<br>au centre</th>
+    <th>Hauteur du centre<br>depuis le sol</th>
+    <th>Largeur &times; hauteur<br>de la plaque</th>
+    <th>Saillie<br>par rapport au mur</th>
+  </tr></thead>
+  <tbody>
+    <tr><td class="lab">Prise haute<br><span class="f">près du passage</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+    <tr><td class="lab">Prise basse<br><span class="f">près du coin droit</span></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>
+  </tbody>
+</table>
+
+<h3>Convecteur électrique</h3>
+<table>
+  <tbody>
+    <tr><td class="lab">Du coin gauche à son bord gauche</td><td class="fill"></td><td class="lab">Largeur de l'appareil</td><td class="fill"></td></tr>
+    <tr><td class="lab">Hauteur sous l'appareil</td><td class="fill"></td><td class="lab">Hauteur de l'appareil</td><td class="fill"></td></tr>
+    <tr><td class="lab">Saillie par rapport au mur</td><td class="fill"></td><td class="lab">Écart entre son bord droit et le passage</td><td class="fill"></td></tr>
+    <tr><td class="lab">Position des pattes de fixation<br><span class="f">depuis le coin gauche</span></td><td class="fill"></td><td class="lab">Sortie du câble d'alimentation<br><span class="f">hauteur et distance au coin</span></td><td class="fill"></td></tr>
+  </tbody>
+</table>
+<p class="f">La saillie compte&nbsp;: si l'appareil dépasse de 80 mm et que le mur avance de 32, il ne dépassera plus que de 48 mm une fois l'habillage posé. Vérifier qu'il reste assez de tirage d'air au-dessus de la grille.</p>
+
+<h2 class="pb">Synthèse <span>&mdash; à remplir en redescendant, avant de commander</span></h2>
+
+<div class="synth">
+<table>
+  <tbody>
+    <tr><td class="lab">Hauteur réelle la plus PETITE des 19 points</td><td class="fill"></td></tr>
+    <tr><td class="lab">Hauteur réelle la plus GRANDE des 19 points</td><td class="fill"></td></tr>
+    <tr class="key"><td class="lab">Écart entre les deux</td><td class="fill"></td></tr>
+    <tr><td class="lab">Largeur totale retenue</td><td class="fill"></td></tr>
+    <tr><td class="lab">Plus gros défaut d'aplomb relevé</td><td class="fill"></td></tr>
+    <tr><td class="lab">Plus gros creux de planéité relevé</td><td class="fill"></td></tr>
+    <tr><td class="lab">Creux de planéité au droit du passage</td><td class="fill"></td></tr>
+  </tbody>
+</table>
+
+<h3 style="margin-top:18px">Ce que ces chiffres donnent</h3>
+<table>
+  <tbody>
+    <tr><td class="lab"><b>Hauteur de découpe</b> = hauteur mini &minus; 25 mm<br><span class="f">10 mm de jeu haut + 15 mm de joint creux bas</span></td><td class="fill"></td></tr>
+    <tr><td class="lab"><b>Hauteur de plinthe minimale</b> = écart + 20 mm</td><td class="fill"></td></tr>
+    <tr><td class="lab"><b>Surépaisseur réelle au passage</b> = 32 mm + creux au passage</td><td class="fill"></td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="rule" style="margin-top:22px">
+  <b>Trois signaux qui changent le projet</b>
+  <ul style="margin:6px 0 0">
+    <li>Hauteur mini <b>inférieure à 2 485 mm</b> &rarr; la découpe prévue au devis ne rentre pas, il faut la refaire baisser.</li>
+    <li>Défaut d'aplomb <b>supérieur à 25 mm</b> &rarr; les liteaux de 20 mm ne suffisent plus à rattraper, il faut passer à du 27 ou dresser le mur.</li>
+    <li>Creux <b>supérieur à 20 mm</b> au droit du passage &rarr; reboucher et dresser cette zone avant de poser, sinon la surépaisseur devient visible.</li>
+  </ul>
+</div>
+
+<p class="f" style="margin-top:26px">Photographie la fiche remplie et renvoie-la. Le calepinage à l'échelle, la liste de découpe corrigée et le mail au fournisseur suivent.</p>
+
+</div>
+</body>
+</html>

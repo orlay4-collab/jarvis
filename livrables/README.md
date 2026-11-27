@@ -19,6 +19,7 @@ On ne mélange jamais les deux. Un document que je fournis ne va pas dans `livra
 | `applications/` | Outils, scripts, automatisations |
 | `tiny-house/` | Exploitation de La Parenthèse : tarifs, rentabilité, fiscalité, voyageurs, offres avec Nadia |
 | `instagram/` | Reels, captions, carrousels, stories et plans de publication pour @tinyhousebba_ |
+| `travaux/` | Travaux et aménagement de la maison, chantiers personnels sans lien avec la tiny house |
 
 Si un livrable ne rentre dans aucune catégorie, on en parle avant de créer un nouveau sous-dossier.
 
